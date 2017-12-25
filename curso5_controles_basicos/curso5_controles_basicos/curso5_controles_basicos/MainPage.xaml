@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:curso5_controles_basicos"
+             x:Class="curso5_controles_basicos.MainPage">
+    
+    <StackLayout Orientation="Vertical">
+        <Label Text="Mi priemra Aplicacion" FontSize="Large"></Label>
+        <Label Text="Ingrese Nombre" FontSize="Medium"></Label>
+        <Entry x:Name="txtNom"/>
+        <Button Text="Mostrar mensaje" x:Name="btnMostrar" Clicked="btnMostrar_Clicked_1" />
+        <Label Text="...." FontSize="Medium" x:Name="lblResultado"></Label>
+    </StackLayout>
+
+
+
+</ContentPage>
