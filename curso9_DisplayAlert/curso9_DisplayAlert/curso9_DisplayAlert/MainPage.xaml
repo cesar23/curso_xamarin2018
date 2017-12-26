@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns:widget="clr-namespace:Android.Widget;assembly=Mono.Android" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:curso9_DisplayAlert"
+             x:Class="curso9_DisplayAlert.MainPage">
+
+    <StackLayout  Orientation="Vertical" x:Name="fondo">
+    <Label Text="DISPLAY _ALERT" HorizontalOptions="Center" FontSize="Large"/>
+
+    <Button x:Name="btnMsg" Text="GOLA ALERTA" Clicked="btnMsg_Clicked" />
+        <Button x:Name="btnMsg2" Text="Mostrar mensaje 2" Clicked="btnMsg2_Clicked" />
+    </StackLayout>
+</ContentPage>
