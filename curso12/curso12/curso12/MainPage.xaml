@@ -6,8 +6,10 @@
 
     <StackLayout  Orientation="Vertical" x:Name="fondo">
         <Label Text="NAVIGATION PAGE" HorizontalOptions="Center" FontSize="Large"/>
+        <Button x:Name="btnPage2" Text="Pagina 2"></Button>
+        <Button x:Name="btnPage3" Text="Pagina 3"></Button>
 
-        <Label Text=".." HorizontalOptions="Center" x:Name="lblcc" FontSize="Large"/>
+        
 
     </StackLayout>
 

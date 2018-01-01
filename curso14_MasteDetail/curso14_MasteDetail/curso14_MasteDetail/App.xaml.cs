@@ -5,17 +5,18 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace curso12
+namespace curso14_MasteDetail
 {
 	public partial class App : Application
 	{
+        public static MasterDetailPage MasterD { get; set; }
+
 		public App ()
 		{
 			InitializeComponent();
 
-			//MainPage = new curso12.MainPage();
-            MainPage = new NavigationPage( new curso12.MainPage());
-        }
+			MainPage = new curso14_MasteDetail.MainPage();
+		}
 
 		protected override void OnStart ()
 		{
